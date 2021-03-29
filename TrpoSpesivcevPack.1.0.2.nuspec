@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>TrpoSpesivcevPack</id>
+    <version>1.0.2</version>
+    <authors>PackLibrary</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <icon>Иноске.jpg</icon>
+    <description>MDK lib</description>
+    <repository type="Git" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="TrpoCore" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Никита\source\repos\PackLibrary\bin\Debug\netstandard2.1\PackLibrary.dll" target="lib\netstandard2.1\PackLibrary.dll" />
+    <file src="C:\Users\Никита\Desktop\Иноске.jpg" target="Иноске.jpg" />
+  </files>
+</package>
